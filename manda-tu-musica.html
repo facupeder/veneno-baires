@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Manda tu música</title>
+</head>
+<body>
+    <header class="header">
+
+        <nav class="navegacion">
+            <ul>
+                <li class="menu-item"><a href="./entradas.html">Entradas</a></li>
+                <li class="menu-item"><a href="./contactanos.html">Contactanos</a></li>
+                <li class="logo"><a href="./index.html"> <img src="./images/logo.png" alt=""></a></li>
+                <li class="menu-item"><a href="./nuestro-paso.html">Nuestro paso</a></li>
+                <li class="menu-item"><a href="./manda-tu-musica.html">Manda tu musica</a></li>
+            </ul>
+        </nav>
+    </header>  
+        
+        <div class="mandanos">
+        <h2>Querés mandarnos tu canción?</h2>
+        <p>Completá este formulario la información de tu tema! En el caso de quedar seleccionado nos vamos a estar comunicando vía WhatsApp!</p>
+        </div>
+        <form action="enviartema" method="post" enctype="application/x-www-form-urlencoded">
+         <section>
+            <div>
+            <label  for="email">Email: </label><br>
+            <input type="text" id="email" name="email" required>
+            </div>
+            
+            <div>
+            <label  for="nombre"><p>Nombre artista/grupo:</p> </label><br>
+            <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+            <label  for="nombretema"><p>Nombre del single:</p></label><br>
+            <input type="text" id="nombretema" name="nombretema" required>
+            </div>
+
+            <div>       
+            <label  for="instagram"><p>Instagram</p></label><br>
+            <input type="text" id="instagram" name="instagram" required>
+            </div>
+            
+            <div>
+            <label  for="numeros"><p>Numero de contacto</p></label><br>
+            <input type="text" id="numeros" name="numeros" required>
+            </div>
+            
+            <div>
+            <label  for="audio"><p> del audio (solo wav)</p></label><br>
+            <input type="text" id="audio" name="audio" required>
+            </div>
+
+            <div>
+            <label  for="portada"><p></p>Link de la portada (Drive)</p></label><br>
+            <input type="text" id="portada" name="portada" required>
+            </div>
+         </section>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+    <footer class="endpage">
+        <nav class="business">
+        <ul>
+            <li class="foot-item"><a href="">Instagram</a></li>
+            <li class="foot-item"><a href="">WhatsApp</a></li>
+            <li class="foot-item"><a href="">Soundcloud</a></li>
+            <li class="foot-item"><a href="">Youtube</a></li>
+        </ul>
+        </nav>
+    </footer>
+</body>
+</html>
